@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
 import time as t
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Input, LSTM, Dense, Layer
-from tensorflow.keras import backend as K
+# from tensorflow.keras.models import Model
+# from tensorflow.keras.layers import Input, LSTM, Dense, Layer
+# from tensorflow.keras import backend as K
 import matplotlib.pyplot as plt
 
 # --- PAGE CONFIG ---
@@ -151,3 +151,4 @@ st.markdown("""
 **Project:** FraudSense | **Developed by:** Manya Gupta & Tanmay Sharma  
 **Model:** LSTM + Attention | **Deployment:** Streamlit
 """)
+
